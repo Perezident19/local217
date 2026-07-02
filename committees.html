@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>News & Committees | IATSE Local 217</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header" data-header></header>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">News & Committees</p>
+        <h1>Committee work now lives with Local 217 news.</h1>
+        <p>This page is kept as a fallback for old links. The main public tab is News, where general updates, committee news, member highlights, and memorials are grouped together.</p>
+      </div>
+    </section>
+
+    <section class="band white">
+      <div class="container section-head">
+        <h2>Current committees</h2>
+        <p>Committee cards can later connect to meeting notes, PDF uploads, contacts, and member updates.</p>
+      </div>
+      <div class="container grid two" data-committees></div>
+    </section>
+
+    <section class="band">
+      <div class="container split">
+        <div>
+          <h2>Start or join committee work</h2>
+          <p>Members can use the contact form to express interest in training, organizing, volunteering, local history, event recaps, or other committee work.</p>
+        </div>
+        <form class="form card" data-static-form>
+          <label>Name<input type="text" name="name" required></label>
+          <label>Email<input type="email" name="email" required></label>
+          <label>Committee interest<select name="interest"><option>Training</option><option>Organizing</option><option>Volunteer</option><option>History</option><option>Other</option></select></label>
+          <label>Message<textarea name="message"></textarea></label>
+          <button class="button" type="submit">Send Interest</button>
+          <p class="small" data-form-status></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="band white">
+      <div class="container section-head">
+        <h2>Committee news</h2>
+        <p>For the combined news view, visit the main News tab.</p>
+      </div>
+      <div class="container news-list" data-committee-news></div>
+      <div class="container button-row">
+        <a class="button" href="news.html">Open News</a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" data-footer></footer>
+  <script src="assets/site.js"></script>
+</body>
+</html>
