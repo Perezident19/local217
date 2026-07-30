@@ -1,1 +1,0 @@
-Validation passed: all pages include shared assets, local links resolve, CSS image references resolve, and site.js parses.
