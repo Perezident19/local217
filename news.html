@@ -9,27 +9,38 @@
 <body>
   <header class="site-header" data-header></header>
   <main>
-    <section class="page-hero">
+    <section class="page-hero" style="--page-hero-image: url('photos/audio-engineer.jpg')">
       <div class="container">
         <p class="eyebrow">News & Updates</p>
-        <h1>What's happening around Local 217.</h1>
+        <h1>What's Happening Around Local 217.</h1>
         <p>Training updates, Local news, committee work, union events, announcements, and other things worth passing along.</p>
         <p>This is where we'll keep public updates from around the Local as they happen.</p>
       </div>
     </section>
 
-    <section class="band white">
-      <div class="container section-head">
-        <h2>News categories</h2>
-        <p>All | Training | Local News | Committee | Solidarity | Member Highlights | In Remembrance</p>
-      </div>
-    </section>
-
     <section class="band">
       <div class="container section-head">
-        <h2>Latest from the Local</h2>
+        <h2>Latest From The Local</h2>
       </div>
       <div class="container news-list" data-all-news></div>
+    </section>
+
+    <section class="band white memorial-section" aria-labelledby="memorial-heading">
+      <div class="container memorial-heading">
+        <div>
+          <p class="eyebrow">Forever Part of Local 217</p>
+          <h2 id="memorial-heading">In Remembrance</h2>
+          <p>Remembering the members whose work, friendship, and service helped build Local 217.</p>
+        </div>
+        <div class="memorial-controls" aria-label="Memorial carousel controls">
+          <button class="memorial-arrow" type="button" data-memorial-prev aria-label="Show previous memorials" title="Previous memorials">&larr;</button>
+          <button class="memorial-arrow" type="button" data-memorial-next aria-label="Show next memorials" title="Next memorials">&rarr;</button>
+        </div>
+      </div>
+      <div class="container memorial-viewport" data-memorial-carousel tabindex="0" aria-label="Local 217 remembrance profiles">
+        <div class="memorial-track" data-memorial-track></div>
+      </div>
+      <p class="visually-hidden" data-memorial-status aria-live="polite"></p>
     </section>
   </main>
   <footer class="site-footer" data-footer></footer>

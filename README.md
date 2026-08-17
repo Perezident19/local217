@@ -29,6 +29,10 @@ Most repeatable content lives in `assets/site.js`:
 - venue cards
 - office phone and public contact details
 
+Optimized stock photos live in `assets/photos`. The current photo credits are listed in `IMAGE-CREDITS.md`.
+
+The Home page overview-video area currently uses a poster image. When the approved video is ready, replace the `video-poster` block in `index.html` with the YouTube or Vimeo embed.
+
 Forms are visual/static for now. On Vercel, they can later be connected to a service such as Formspree, Airtable, Google Sheets, Resend, or a Next.js/Serverless backend.
 
 ## Deploying On Vercel
