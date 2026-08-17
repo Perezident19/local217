@@ -5,7 +5,6 @@ const navItems = [
   ["Training", "training.html"],
   ["News", "news.html"],
   ["Gallery", "gallery.html"],
-  ["Join", "join.html"],
   ["Work With Local 217", "contact.html"]
 ];
 
@@ -52,7 +51,7 @@ const events = [
   },
   {
     date: "2026-09-03",
-    title: "TTF: Wardrobe and Costume Department Safety",
+    title: "TTF: Wardrobe And Costume Department Safety",
     type: "Training",
     time: "Registration through TTF",
     place: "IATSE Training Trust Fund",
@@ -119,7 +118,7 @@ const trainings = [
   },
   {
     date: "2026-09-03",
-    title: "TTF: Wardrobe and Costume Department Safety",
+    title: "TTF: Wardrobe And Costume Department Safety",
     type: "TTF",
     time: "Registration through TTF",
     place: "Online / TTF",
@@ -181,54 +180,132 @@ const leadership = window.leadershipData || [];
 
 const galleryItems = [
   {
-    title: "Shows / Work Photos",
-    summary: "Photos of Local 217 members doing the work."
+    title: "Backstage Production",
+    summary: "The working side of a live stage, with cable, equipment, and crew space ready for the production.",
+    image: "assets/photos/stagehand-backstage.jpg",
+    alt: "Stagehand standing backstage near coiled cable and production equipment"
   },
   {
-    title: "Venue & Event Photos",
-    summary: "Photos from venues, productions, and events where Local 217 has permission to share them."
+    title: "Sound Control",
+    summary: "Audio systems are monitored and adjusted from the control position throughout an event.",
+    image: "assets/photos/audio-engineer.jpg",
+    alt: "Audio engineer operating a live sound console"
   },
   {
-    title: "Training Photos",
-    summary: "Photos from Local 217 classes, hands-on learning, steward basics, and other approved training."
+    title: "Stage Rigging",
+    summary: "Rigging, lighting positions, curtains, and road cases are part of the infrastructure behind a show.",
+    image: "assets/photos/stage-rigging.jpg",
+    alt: "Black and white view of stage rigging above road cases"
   },
   {
-    title: "Volunteer / Solidarity Photos",
-    summary: "Photos from volunteer work, labor participation, community support, and solidarity events."
+    title: "Road Cases & Load-In",
+    summary: "A production floor organized with road cases and equipment before the next phase of the call.",
+    image: "assets/photos/arena-loadin.jpg",
+    alt: "Road cases and production equipment arranged on an arena floor"
   },
   {
-    title: "Visiting Locals & Productions",
-    summary: "Photos from visiting productions and work with other IATSE locals when approved for public use."
+    title: "Theater Setup",
+    summary: "Technicians prepare lighting and stage equipment inside a working theater.",
+    image: "assets/photos/theater-setup.jpg",
+    alt: "Stage technicians preparing lighting equipment in a theater"
   },
   {
-    title: "Members & Local 217",
-    summary: "Group photos, member events, and approved use of the Local 217 bug/logo."
+    title: "Lighting Preparation",
+    summary: "Fixtures, ladders, cable, and careful positioning all come together before the audience arrives.",
+    image: "assets/photos/stage-lighting.jpg",
+    alt: "Stage lighting fixtures being prepared beside a ladder"
+  },
+  {
+    title: "Building The Event Space",
+    summary: "Temporary event structures take planning, teamwork, safety equipment, and steady hands.",
+    image: "assets/photos/stagebuild-team.jpg",
+    alt: "Event crew assembling a temporary platform together"
+  },
+  {
+    title: "Crew Backstage",
+    summary: "Production work depends on crews staying connected, prepared, and ready for the next task.",
+    image: "assets/photos/backstage-crew.jpg",
+    alt: "Production crew gathered backstage at night"
+  },
+  {
+    title: "Outdoor Stage",
+    summary: "Outdoor productions bring together staging, lighting, audio, video, and audience support.",
+    image: "assets/photos/outdoor-stage.jpg",
+    alt: "Outdoor concert stage illuminated during a live performance"
+  },
+  {
+    title: "Scenery & Fly Systems",
+    summary: "Theater work includes scenery, overhead systems, lighting positions, and the spaces audiences never see.",
+    image: "assets/photos/stage-scenery.jpg",
+    alt: "Theater set and scenery seen through an overhead fly system"
+  },
+  {
+    title: "Front Of House",
+    summary: "Audio and show-control positions keep the technical side of the event moving from start to finish.",
+    image: "assets/photos/sound-console.jpg",
+    alt: "Audio engineer seated at a front-of-house sound console"
+  },
+  {
+    title: "Stage & Audience",
+    summary: "The finished event is the visible result of a much larger effort before, during, and after the show.",
+    image: "assets/photos/concert-stage.jpg",
+    alt: "View from a concert stage toward a large audience"
   }
 ];
 
 const memorials = [
   {
-    title: "In Remembrance",
-    summary: "Memorial posts can be added here when appropriate, using family-approved photos and respectful wording from the Local."
+    name: "Member Name",
+    year: "Year Passed",
+    note: "A short remembrance from Local 217 will be added here."
+  },
+  {
+    name: "Member Name",
+    year: "Year Passed",
+    note: "A short remembrance from Local 217 will be added here."
+  },
+  {
+    name: "Member Name",
+    year: "Year Passed",
+    note: "A short remembrance from Local 217 will be added here."
+  },
+  {
+    name: "Member Name",
+    year: "Year Passed",
+    note: "A short remembrance from Local 217 will be added here."
+  },
+  {
+    name: "Member Name",
+    year: "Year Passed",
+    note: "A short remembrance from Local 217 will be added here."
+  },
+  {
+    name: "Member Name",
+    year: "Year Passed",
+    note: "A short remembrance from Local 217 will be added here."
   }
 ];
 
 const venues = [
   {
     title: "BMO Center",
-    summary: "Arena events, concerts, sports, touring productions, and large-scale event work in the Rockford region."
+    summary: "Arena events, concerts, sports, touring productions, and large-scale event work in the Rockford region.",
+    image: "photos/venue-bmo-center.jpg"
   },
   {
     title: "Coronado Theatre",
-    summary: "Historic theater work, touring shows, orchestras, stagecraft, and live performance support."
+    summary: "Historic theater work, touring shows, orchestras, stagecraft, and live performance support.",
+    image: "photos/venue-coronado-theatre.jpg"
   },
   {
     title: "Hard Rock Casino Rockford",
-    summary: "Casino entertainment, concerts, special events, and live event support."
+    summary: "Casino entertainment, concerts, special events, and live event support.",
+    image: "photos/venue-hard-rock-rockford.jpg"
   },
   {
     title: "Regional Calls",
-    summary: "NIU Convocation Center, festivals, outdoor events, touring productions, and special events when appropriate."
+    summary: "NIU Convocation Center, festivals, outdoor events, touring productions, and special events when appropriate.",
+    image: "photos/venue-regional-calls.jpg"
   }
 ];
 
@@ -236,8 +313,10 @@ const news = [
   {
     slug: "local-217-training-program-produces-results",
     date: "2026-07-30",
-    title: "A Strong Start for Local 217 Training",
+    title: "A Strong Start For Local 217 Training",
     tag: "Training",
+    image: "assets/photos/equipment-tech.jpg",
+    imageAlt: "Production technician adjusting equipment during an event setup",
     summary: "The first three classes brought 37 total attendances and 140 participant training hours. That's a good start, but the bigger reason we're doing this is simple. More people need to know the work.",
     preview: [
       "We kicked off the current training effort on March 19, and the first three classes have already put more members, apprentices, and extras in the room learning together.",
@@ -263,6 +342,8 @@ const news = [
     date: "2026-07-30",
     title: "Upcoming Training Opportunities",
     tag: "Training",
+    image: "assets/photos/training-scaffold.jpg",
+    imageAlt: "Event workers assembling a temporary structure with safety equipment",
     summary: "There are more opportunities coming up through both Local 217 and the IATSE Training Trust Fund.",
     articleSummary: "We've got more training coming up through Local 217, along with several opportunities through the IATSE Training Trust Fund.",
     preview: [
@@ -294,8 +375,10 @@ const news = [
   {
     slug: "you-do-not-have-to-be-an-officer",
     date: "2026-06-10",
-    title: "You Don't Have to Be an Officer to Build the Local",
+    title: "You Don't Have To Be An Officer To Build The Local",
     tag: "Committee",
+    image: "assets/photos/backstage-crew.jpg",
+    imageAlt: "Production crew gathered together backstage",
     summary: "There is plenty to do around a Local that does not require holding office.",
     articleSummary: "There's plenty of work around a Local that doesn't require holding office.",
     preview: [
@@ -343,7 +426,7 @@ function renderHeader() {
       <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false"><span></span></button>
       <nav class="nav-links" aria-label="Primary navigation">
         ${navItems.map(([label, href]) => `<a href="${href}" class="${path === href ? "active" : ""}">${label}</a>`).join("")}
-        <a class="nav-cta" href="join.html">Join / Get Involved</a>
+        <a class="nav-cta${path === "join.html" ? " active" : ""}" href="join.html"${path === "join.html" ? ' aria-current="page"' : ""}>Join / Get Involved</a>
       </nav>
     </div>
   `;
@@ -413,7 +496,7 @@ function renderCards(selector, collection, extraClass = "") {
   const target = document.querySelector(selector);
   if (!target) return;
   target.innerHTML = collection.map((item) => `
-    <article class="card ${extraClass}">
+    <article class="card ${extraClass}"${item.image ? ` style="--card-image: url('${item.image}')"` : ""}>
       <h3>${item.title}</h3>
       <p>${item.summary}</p>
     </article>
@@ -425,7 +508,7 @@ function renderPhotoCards(selector, collection) {
   if (!target) return;
   target.innerHTML = collection.map((item) => `
     <article class="photo-card">
-      <div class="placeholder-image" aria-hidden="true"></div>
+      ${item.image ? `<img src="${item.image}" alt="${item.alt || "Live event production photography"}" loading="lazy">` : `<div class="placeholder-image" aria-hidden="true"></div>`}
       <div>
         <h3>${item.title}</h3>
         <p>${item.summary}</p>
@@ -445,8 +528,9 @@ function renderNews(selector, limit) {
     });
     return `
       <a class="news-item clickable" href="article.html?slug=${item.slug}">
-        <div><span class="tag">${item.tag}</span></div>
-        <div>
+        ${item.image ? `<img class="news-thumb" src="${item.image}" alt="${item.imageAlt || "Live event production"}" loading="lazy">` : ""}
+        <div class="news-copy">
+          <div><span class="tag">${item.tag}</span></div>
           <div class="meta">${date}</div>
           <h3>${item.title}</h3>
           <p>${item.summary}</p>
@@ -469,8 +553,9 @@ function renderNewsCollection(selector, collection) {
     });
     return `
       <a class="news-item clickable" href="article.html?slug=${item.slug}">
-        <div><span class="tag">${item.tag}</span></div>
-        <div>
+        ${item.image ? `<img class="news-thumb" src="${item.image}" alt="${item.imageAlt || "Live event production"}" loading="lazy">` : ""}
+        <div class="news-copy">
+          <div><span class="tag">${item.tag}</span></div>
           <div class="meta">${date}</div>
           <h3>${item.title}</h3>
           <p>${item.summary}</p>
@@ -479,6 +564,77 @@ function renderNewsCollection(selector, collection) {
       </a>
     `;
   }).join("");
+}
+
+function renderMemorialCarousel() {
+  const carousel = document.querySelector("[data-memorial-carousel]");
+  const track = document.querySelector("[data-memorial-track]");
+  const previousButton = document.querySelector("[data-memorial-prev]");
+  const nextButton = document.querySelector("[data-memorial-next]");
+  const status = document.querySelector("[data-memorial-status]");
+  if (!carousel || !track || !previousButton || !nextButton) return;
+
+  track.innerHTML = memorials.map((item, index) => `
+    <article class="memorial-card" aria-label="Memorial profile ${index + 1}">
+      <div class="memorial-photo" aria-hidden="true"></div>
+      <div class="memorial-copy">
+        <h3>${item.name}</h3>
+        <p class="memorial-year">${item.year}</p>
+        <p>${item.note}</p>
+      </div>
+    </article>
+  `).join("");
+
+  let firstVisible = 0;
+  const cards = Array.from(track.querySelectorAll(".memorial-card"));
+
+  function visibleCount() {
+    if (window.matchMedia("(max-width: 520px)").matches) return 1;
+    if (window.matchMedia("(max-width: 860px)").matches) return 2;
+    return 3;
+  }
+
+  function updateCarousel() {
+    const visible = visibleCount();
+    const maximumStart = Math.max(0, cards.length - visible);
+    firstVisible = Math.min(firstVisible, maximumStart);
+    const gap = parseFloat(window.getComputedStyle(track).gap) || 0;
+    const cardWidth = cards[0]?.getBoundingClientRect().width || 0;
+
+    track.style.transform = `translateX(-${firstVisible * (cardWidth + gap)}px)`;
+    previousButton.disabled = firstVisible === 0;
+    nextButton.disabled = firstVisible === maximumStart;
+
+    if (status) {
+      const lastVisible = Math.min(firstVisible + visible, cards.length);
+      status.textContent = `Showing memorials ${firstVisible + 1} through ${lastVisible} of ${cards.length}.`;
+    }
+  }
+
+  previousButton.addEventListener("click", () => {
+    firstVisible = Math.max(0, firstVisible - visibleCount());
+    updateCarousel();
+  });
+
+  nextButton.addEventListener("click", () => {
+    const visible = visibleCount();
+    firstVisible = Math.min(cards.length - visible, firstVisible + visible);
+    updateCarousel();
+  });
+
+  carousel.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowLeft" && !previousButton.disabled) {
+      event.preventDefault();
+      previousButton.click();
+    }
+    if (event.key === "ArrowRight" && !nextButton.disabled) {
+      event.preventDefault();
+      nextButton.click();
+    }
+  });
+
+  window.addEventListener("resize", updateCarousel);
+  updateCarousel();
 }
 
 function renderArticle() {
@@ -505,6 +661,7 @@ function renderArticle() {
       </div>
       <h1>${article.title}</h1>
       <p class="article-summary">${article.articleSummary || article.summary}</p>
+      ${article.image ? `<img class="article-image" src="${article.image}" alt="${article.imageAlt || "Live event production"}">` : ""}
       <div class="article-body">
         ${article.body.map((paragraph) => `<p>${paragraph}</p>`).join("")}
       </div>
@@ -544,9 +701,9 @@ renderCards("[data-committees]", committees);
 renderCards("[data-venues]", venues, "venue-card");
 renderCards("[data-leadership]", leadership);
 renderPhotoCards("[data-gallery]", galleryItems);
-renderPhotoCards("[data-memorials]", memorials);
 renderNews("[data-news]", 3);
 renderNews("[data-all-news]");
 renderNewsCollection("[data-committee-news]", committeeNews);
+renderMemorialCarousel();
 renderArticle();
 handleStaticForms();
