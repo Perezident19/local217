@@ -6,279 +6,320 @@ const navItems = [
   ["News", "news.html"],
   ["Gallery", "gallery.html"],
   ["Join", "join.html"],
-  ["Contact", "contact.html"]
+  ["Work With Local 217", "contact.html"]
 ];
 
 const events = [
   {
-    date: "2026-08-12",
-    title: "Rockford Summer Concert Load-In",
-    type: "Concert",
-    time: "8:00 AM Call",
-    place: "BMO Center",
-    summary: "Stage, lighting, audio, and backline support for a large touring concert."
+    date: "2026-08-17",
+    title: "Weekly Member Meeting",
+    type: "Membership",
+    time: "8:00 PM",
+    place: "Local 217 Union Hall",
+    summary: "Regular meetings give us a place to handle Local business, ask questions, talk through what is going on, and keep people informed."
   },
   {
-    date: "2026-08-15",
-    title: "Broadway Touring Production",
-    type: "Theater",
-    time: "10:00 AM Call",
-    place: "Coronado Theatre",
-    summary: "Load-in and show support for a touring theater production."
+    date: "2026-08-20",
+    title: "TTF: Basic Entertainment Safety",
+    type: "Training",
+    time: "Registration through TTF",
+    place: "IATSE Training Trust Fund",
+    summary: "Safety training opportunity for members interested in strengthening jobsite awareness and safe work habits."
   },
   {
-    date: "2026-08-19",
-    title: "Hard Rock Live Event",
-    type: "Live Event",
-    time: "2:00 PM Call",
-    place: "Hard Rock",
-    summary: "Crew call for stage setup, event changeover, and show operations."
+    date: "2026-08-24",
+    title: "Weekly Member Meeting",
+    type: "Membership",
+    time: "8:00 PM",
+    place: "Local 217 Union Hall",
+    summary: "Regular meetings give members a place to handle Local business, ask questions, listen, and learn how the Local works."
   },
   {
-    date: "2026-08-27",
-    title: "Arena Sports Changeover",
-    type: "Arena",
-    time: "7:00 AM Call",
-    place: "BMO Center",
-    summary: "Floor conversion, staging support, and venue reset ahead of a weekend event."
+    date: "2026-08-30",
+    title: "TTF: OSHA 10 General Industry",
+    type: "Training",
+    time: "August 30-31",
+    place: "IATSE Training Trust Fund",
+    summary: "Two-day OSHA opportunity. Members should review TTF requirements before registering."
   },
   {
-    date: "2026-09-04",
-    title: "Downtown Festival Stage Build",
-    type: "Festival",
-    time: "9:00 AM Call",
-    place: "Downtown Rockford",
-    summary: "Outdoor stage build, production support, and event preparation."
+    date: "2026-08-31",
+    title: "Weekly Member Meeting",
+    type: "Membership",
+    time: "8:00 PM",
+    place: "Local 217 Union Hall",
+    summary: "Members can attend to hear updates, ask questions, and learn more about Local 217."
   },
   {
-    date: "2026-09-12",
-    title: "Classic Rock Night",
-    type: "Concert",
-    time: "1:00 PM Call",
-    place: "Coronado Theatre",
-    summary: "Lighting, audio, deck, and load-out support for an evening concert."
+    date: "2026-09-03",
+    title: "TTF: Wardrobe and Costume Department Safety",
+    type: "Training",
+    time: "Registration through TTF",
+    place: "IATSE Training Trust Fund",
+    summary: "Training Trust Fund opportunity for members interested in wardrobe and costume department safety."
   },
   {
-    date: "2026-09-18",
-    title: "Corporate Production Day",
-    type: "Corporate",
-    time: "6:30 AM Call",
-    place: "BMO Center",
-    summary: "General session setup, breakout support, staging, and strike."
+    date: "2026-09-08",
+    title: "TTF: OSHA 10 Construction",
+    type: "Training",
+    time: "September 8-9",
+    place: "IATSE Training Trust Fund",
+    summary: "Two-day OSHA construction opportunity. TTF registration is separate and eligibility requirements apply."
   },
   {
-    date: "2026-09-30",
-    title: "Community Awards Gala",
-    type: "Special Event",
-    time: "11:00 AM Call",
-    place: "Embassy Suites Rockford",
-    summary: "Stage, podium, lighting, and room support for a community gala."
+    date: "2026-09-13",
+    title: "TTF: OSHA 10 General Industry",
+    type: "Training",
+    time: "September 13-14",
+    place: "IATSE Training Trust Fund",
+    summary: "Two-day OSHA general industry opportunity. Members should review TTF requirements before registering."
   }
 ];
 
 const trainings = [
   {
-    date: "2026-08-22",
-    title: "Stage Safety Refresher",
-    type: "Safety",
-    time: "10:00 AM",
-    place: "Training Room",
-    summary: "Core safety practices for load-ins, load-outs, PPE, communication, and working around moving equipment."
-  },
-  {
-    date: "2026-09-10",
-    title: "Intro To Rigging Concepts",
-    type: "Training",
-    time: "6:00 PM",
-    place: "BMO Center",
-    summary: "Foundational terminology, hardware awareness, inspection habits, and when to ask for qualified help."
-  },
-  {
-    date: "2026-09-24",
-    title: "TTF Class Window",
+    date: "2026-08-06",
+    title: "TTF: Noise Exposure",
     type: "TTF",
-    time: "TBD",
-    place: "Online",
-    summary: "Placeholder for IATSE Training Trust Fund class links and registration reminders."
+    time: "Registration through TTF",
+    place: "Online / TTF",
+    summary: "IATSE Training Trust Fund opportunity. Eligibility requirements apply."
+  },
+  {
+    date: "2026-08-15",
+    title: "TTF: OSHA 10 Construction",
+    type: "TTF",
+    time: "August 15-16",
+    place: "Zoom / TTF",
+    summary: "Two-day OSHA class through the IATSE Training Trust Fund. Full participation requirements apply."
+  },
+  {
+    date: "2026-08-20",
+    title: "TTF: Basic Entertainment Safety",
+    type: "TTF",
+    time: "Registration through TTF",
+    place: "Online / TTF",
+    summary: "Entertainment safety class listed through the IATSE Training Trust Fund."
+  },
+  {
+    date: "2026-08-27",
+    title: "Roles, Responsibilities, Paperwork & Ethics",
+    type: "Local 217",
+    time: "Exact time TBA",
+    place: "Local 217",
+    summary: "Open to members, apprentices, and extras. Covers Local structure, documentation, ethics, confidentiality, and member involvement."
+  },
+  {
+    date: "2026-08-30",
+    title: "TTF: OSHA 10 General Industry",
+    type: "TTF",
+    time: "August 30-31",
+    place: "Zoom / TTF",
+    summary: "Two-day OSHA opportunity through the IATSE Training Trust Fund."
+  },
+  {
+    date: "2026-09-03",
+    title: "TTF: Wardrobe and Costume Department Safety",
+    type: "TTF",
+    time: "Registration through TTF",
+    place: "Online / TTF",
+    summary: "Department safety opportunity through the IATSE Training Trust Fund."
+  },
+  {
+    date: "2026-09-08",
+    title: "TTF: OSHA 10 Construction",
+    type: "TTF",
+    time: "September 8-9",
+    place: "Zoom / TTF",
+    summary: "Two-day OSHA construction opportunity through the IATSE Training Trust Fund."
+  },
+  {
+    date: "2026-09-13",
+    title: "TTF: OSHA 10 General Industry",
+    type: "TTF",
+    time: "September 13-14",
+    place: "Zoom / TTF",
+    summary: "Two-day OSHA general industry opportunity through the IATSE Training Trust Fund."
   }
 ];
 
 const committees = [
   {
-    title: "Training Committee",
-    summary: "Coordinates skills development, TTF opportunities, safety refreshers, and member education."
+    title: "Education & Training",
+    summary: "Supports orientation, safety basics, hands-on learning, steward education, and training opportunities."
   },
   {
-    title: "Organizing Committee",
-    summary: "Builds relationships, supports outreach, and helps more workers find a path into the union."
+    title: "Events & Solidarity",
+    summary: "Keeps members connected through union events, community support, member gatherings, and solidarity work."
   },
   {
-    title: "Volunteer Committee",
-    summary: "Connects members with community events, service work, and public-facing Local 217 efforts."
+    title: "Health & Safety",
+    summary: "Supports safer work, better questions, hazard awareness, and standards that protect the crew."
   },
   {
-    title: "History Committee",
-    summary: "Collects photos, stories, venue history, and member memories so the local's work is preserved."
+    title: "Organizing & Recruitment",
+    summary: "Helps new workers understand the Local, supports outreach, and builds the next group of dependable hands."
   }
 ];
 
 const committeeNews = [
   {
-    slug: "training-committee-fall-class-list",
-    date: "2026-07-09",
-    title: "Training Committee Builds Fall Class List",
+    slug: "you-do-not-have-to-be-an-officer",
+    date: "2026-06-10",
+    title: "You Do Not Have To Be An Officer To Build The Local",
     tag: "Committee",
-    summary: "The training committee is organizing safety refreshers, rigging basics, and TTF reminders for the next schedule.",
+    summary: "Committees give members a way to help with training, solidarity, safety, organizing, and member support without holding office.",
     body: [
-      "The Training Committee is preparing a stronger class schedule for members who want to sharpen skills, refresh safety habits, and stay connected to current expectations in live event work.",
-      "Planned topics include stage safety, basic rigging concepts, venue awareness, and links to IATSE Training Trust Fund opportunities. Exact dates, registration steps, and any required materials can be added here once approved.",
-      "Members interested in helping with training, suggesting topics, or sharing experience from the field can contact the committee through the local."
-    ]
-  },
-  {
-    slug: "history-committee-collecting-venue-photos",
-    date: "2026-07-01",
-    title: "History Committee Collecting Venue Photos",
-    tag: "Committee",
-    summary: "Members can submit photos, show memories, and stories from BMO Center, Coronado Theatre, Hard Rock, and past calls.",
-    body: [
-      "The History Committee is collecting photos, show memories, old call stories, and venue notes that help preserve the work Local 217 members have done over the years.",
-      "Photos from BMO Center, Coronado Theatre, Hard Rock, touring productions, community events, and older venues can eventually be organized into gallery posts and venue history pages.",
-      "Before anything is published, the local can confirm permissions, names, dates, and any family or member preferences around how the material is shared."
-    ]
-  },
-  {
-    slug: "volunteer-committee-community-outreach",
-    date: "2026-06-22",
-    title: "Volunteer Committee Plans Community Outreach",
-    tag: "Committee",
-    summary: "Volunteer opportunities are being gathered so members can represent Local 217 at more public events.",
-    body: [
-      "The Volunteer Committee is gathering opportunities where members can show up for community events, support local causes, and represent Local 217 in a positive public way.",
-      "This section can be used to announce volunteer sign-ups, recap completed events, thank participating members, and connect new members with ways to get involved outside regular work calls.",
-      "As the committee calendar grows, these updates can link directly to event pages, photo galleries, and member highlights."
+      "A member does not have to take on everything to make a difference. A one-hour job done well is better than a big promise that never happens.",
+      "Local 217 committees can support education and training, events and solidarity, health and safety, political and legislative work, organizing and recruitment, and other member-led efforts.",
+      "The goal is simple: give more members a path to step up, learn the Local, help the next person, and strengthen the crew around them."
     ]
   }
 ];
 
-const leadership = [
-  {
-    title: "Business Agent / President",
-    summary: "Placeholder photo and officer bio. Add the official officer name, title, contact rules, and a short description of their role."
-  },
-  {
-    title: "Secretary / Treasurer",
-    summary: "Placeholder photo and officer bio. Add responsibilities such as records, dues, meeting minutes, or financial reporting."
-  },
-  {
-    title: "Executive Board",
-    summary: "Placeholder photo and board description. Add elected board members, committee liaisons, and member support roles."
-  }
-];
+const leadership = window.leadershipData || [];
 
 const galleryItems = [
   {
-    title: "Placeholder: Arena Load-In",
-    summary: "Use this spot for a BMO Center concert, sports event, or touring production photo with show details."
+    title: "Shows / Work Photos",
+    summary: "Photos of Local 217 members doing the work."
   },
   {
-    title: "Placeholder: Coronado Theatre Show",
-    summary: "Use this spot for a theater performance photo, show title, date, and crew notes."
+    title: "Venue & Event Photos",
+    summary: "Photos from venues, productions, and events where Local 217 has permission to share them."
   },
   {
-    title: "Placeholder: Hard Rock Event",
-    summary: "Use this spot for a casino or entertainment venue event with a short description."
+    title: "Training Photos",
+    summary: "Photos from Local 217 classes, hands-on learning, steward basics, and other approved training."
   },
   {
-    title: "Placeholder: Training Class",
-    summary: "Use this spot for safety training, TTF classes, apprenticeship work, or member education."
+    title: "Volunteer / Solidarity Photos",
+    summary: "Photos from volunteer work, labor participation, community support, and solidarity events."
   },
   {
-    title: "Placeholder: Volunteer Event",
-    summary: "Use this spot for community work, member engagement, or Local 217 public outreach."
+    title: "Visiting Locals & Productions",
+    summary: "Photos from visiting productions and work with other IATSE locals when approved for public use."
   },
   {
-    title: "Placeholder: Visiting Local",
-    summary: "Use this spot for photos and notes from visiting union members or collaborative calls."
+    title: "Members & Local 217",
+    summary: "Group photos, member events, and approved use of the Local 217 bug/logo."
   }
 ];
 
 const memorials = [
   {
-    title: "In Memory Of A Local 217 Member",
-    summary: "Placeholder photo and tribute. Add their name, years of service, favorite memories, and a respectful note from the local."
-  },
-  {
-    title: "Honoring A Retired Member",
-    summary: "Placeholder photo and tribute. Use this space to preserve the member's contribution to the craft and the union."
-  },
-  {
-    title: "Remembering A Brother Or Sister",
-    summary: "Placeholder photo and tribute. Add a warm message, show memories, and family-approved wording."
+    title: "In Remembrance",
+    summary: "Memorial posts can be added here when appropriate, using family-approved photos and respectful wording from the Local."
   }
 ];
-
-const memberHighlight = {
-  title: "Member Of The Month",
-  name: "Placeholder Member Name",
-  summary: "Use this home page feature to recognize a Local 217 member for strong work, mentorship, safety, volunteer service, or commitment to the local."
-};
 
 const venues = [
   {
     title: "BMO Center",
-    summary: "Arena and event work, touring productions, sports, concerts, and large-scale crew calls."
+    summary: "Arena events, concerts, sports, touring productions, and large-scale event work in the Rockford region."
   },
   {
     title: "Coronado Theatre",
-    summary: "Historic theater work, stagecraft, touring shows, orchestras, and live performance support."
+    summary: "Historic theater work, touring shows, orchestras, stagecraft, and live performance support."
   },
   {
-    title: "Hard Rock",
-    summary: "Entertainment, hospitality, concerts, special events, and evolving venue partnerships."
+    title: "Hard Rock Casino Rockford",
+    summary: "Casino entertainment, concerts, special events, and live event support."
+  },
+  {
+    title: "Regional Calls",
+    summary: "NIU Convocation Center, festivals, outdoor events, touring productions, and special events when appropriate."
   }
 ];
 
 const news = [
   {
-    slug: "local-217-website-foundation-continues",
-    date: "2026-07-02",
-    title: "Local 217 Website Foundation Continues",
-    tag: "Update",
-    summary: "The local is building a modern public website with calendars, training information, news, member highlights, and clear contact paths.",
-    body: [
-      "Local 217 is building a modern public website that gives members and prospective workers a clearer place to find information without digging through scattered messages.",
-      "The site includes public calendars, training information, news, gallery space, member highlights, committee updates, joining information, and contact paths for venues, visiting locals, and workers interested in the local.",
-      "As the local grows into the site, future updates can include real photos, approved officer information, PDF uploads, event recaps, and easier tools for officers or admins to keep the site current."
-    ]
-  },
-  {
-    slug: "training-opportunities-expanded",
-    date: "2026-06-18",
-    title: "Training Opportunities Expanded",
+    slug: "local-217-training-program-produces-results",
+    date: "2026-07-30",
+    title: "A Strong Start for Local 217 Training",
     tag: "Training",
-    summary: "The local is building a clearer training rhythm so members can track classes, safety refreshers, and TTF opportunities.",
+    summary: "The first three classes brought 37 total attendances and 140 participant training hours. That's a good start, but the bigger reason we're doing this is simple. More people need to know the work.",
+    preview: [
+      "We kicked off the current training effort on March 19, and the first three classes have already put more members, apprentices, and extras in the room learning together.",
+      "Those first three classes brought 37 total attendances and 140 participant training hours. That included 15 hands at the March 19 rigging orientation, eight at the follow-up class, and 14 at the July 1 Leadership and Steward Basics class.",
+      "The numbers are good to see, but they're not the whole story. The bigger goal is getting more people involved in training, giving experienced hands a chance to pass along what they know, and making sure the Local isn't depending on the same few people knowing everything.",
+      "There's more to learn and more training ahead. That's exactly the point."
+    ],
     body: [
-      "Training remains one of the strongest ways to build confidence, safety, and consistency across Local 217's work.",
-      "This update area can be used to announce upcoming safety refreshers, skills classes, apprenticeship information, venue-specific training, and IATSE Training Trust Fund opportunities.",
-      "Members can check the Training page for upcoming items and use the contact form to ask questions about classes or suggest future topics."
+      "Local 217 kicked off the current training program on March 19 with a rigging orientation attended by 15 hands. Eight hands attended the follow-up class, and another 14 took part in the July 1 Leadership and Steward Basics class.",
+      "That's 37 total attendances and 140 participant training hours across the first three classes.",
+      "Those numbers are worth keeping track of, but collecting hours and certificates isn't the point. Training gives people a chance to work safer, understand the Local better, build confidence, and be better prepared as they gain experience.",
+      "Some of that means learning the physical work. Some of it means understanding safety, communication, documentation, and how the Local works.",
+      "Experienced hands have knowledge worth passing down, and newer hands need the chance to learn it.",
+      "There's more training ahead, and there's plenty more to learn."
+    ],
+    actions: [
+      ["Training & Apprenticeship", "training.html"],
+      ["Training Calendar", "https://docs.google.com/spreadsheets/d/e/2PACX-1vSgWk1X333gDo2dvcBciMo3OTgMLM6fgJv1yi-7cMwJxrK_52cKK95eQAReoSsb4A/pubhtml"]
     ]
   },
   {
-    slug: "committee-work-continues",
-    date: "2026-06-01",
-    title: "Committee Work Continues",
-    tag: "Members",
-    summary: "Member-led committees are helping grow outreach, volunteer work, event recaps, and local history efforts.",
+    slug: "upcoming-training-opportunities",
+    date: "2026-07-30",
+    title: "Upcoming Training Opportunities",
+    tag: "Training",
+    summary: "There are more opportunities coming up through both Local 217 and the IATSE Training Trust Fund.",
+    articleSummary: "We've got more training coming up through Local 217, along with several opportunities through the IATSE Training Trust Fund.",
+    preview: [
+      "Local training includes Roles, Responsibilities, Paperwork & Ethics. TTF opportunities include Noise Exposure, OSHA 10 Construction, Basic Entertainment Safety, OSHA 10 General Industry, and Wardrobe and Costume Department Safety.",
+      "Local 217 and TTF classes use different registration processes, so check the class information before signing up. If you're not sure where to start with Local 217 training, reach out and ask."
+    ],
     body: [
-      "Member-led committee work gives Local 217 a way to keep more people involved in the life of the local beyond regular meetings and calls.",
-      "Committees can support training, organizing, volunteer work, history collection, event recaps, member engagement, and other efforts that make the local stronger and more visible.",
-      "As this section develops, committee updates can become regular posts with photos, meeting summaries, next steps, and ways for members to participate."
+      "Local 217 is planning Roles, Responsibilities, Paperwork & Ethics around August 27. The class is open to members, apprentices, and extras.",
+      "It will cover Local structure, concerns, documentation, ethics, confidentiality, and ways to get involved.",
+      "There are also several opportunities through the IATSE Training Trust Fund:",
+      "Noise Exposure",
+      "OSHA 10 Construction",
+      "Basic Entertainment Safety",
+      "OSHA 10 General Industry",
+      "Wardrobe and Costume Department Safety",
+      "Local 217 and TTF classes don't use the same registration process. TTF registration is separate, and eligibility requirements may apply. Check the class information before registering so you know what's required."
+    ],
+    contact: [
+      "Training Contact",
+      "letstrain217@gmail.com",
+      "Not sure where to start with Local 217 training? Reach out and ask."
+    ],
+    actions: [
+      ["Training & Apprenticeship", "training.html"],
+      ["Local 217 Training Calendar", "https://docs.google.com/spreadsheets/d/e/2PACX-1vSgWk1X333gDo2dvcBciMo3OTgMLM6fgJv1yi-7cMwJxrK_52cKK95eQAReoSsb4A/pubhtml"],
+      ["TTF Training", "https://www.iatsetrainingtrust.org/webinars"]
+    ]
+  },
+  {
+    slug: "you-do-not-have-to-be-an-officer",
+    date: "2026-06-10",
+    title: "You Don't Have to Be an Officer to Build the Local",
+    tag: "Committee",
+    summary: "There is plenty to do around a Local that does not require holding office.",
+    articleSummary: "There's plenty of work around a Local that doesn't require holding office.",
+    preview: [
+      "Members can help with education and training, events and solidarity, health and safety, political and legislative work, organizing and recruitment, and other member-led efforts.",
+      "Sometimes that means taking on a larger responsibility. Other times it's one job that needs somebody willing to take care of it.",
+      "There's a line from our leadership training that puts it pretty well: \"A one-hour job done well is better than a big promise that never happens.\"",
+      "You don't have to do everything. Find somewhere you can help, do your part well, and go from there."
+    ],
+    body: [
+      "A member does not have to take on everything to make a difference.",
+      "There's a line from our leadership training that gets right to it:",
+      "\"A one-hour job done well is better than a big promise that never happens.\"",
+      "That's a good way to think about getting involved.",
+      "Local 217 committees can support education and training, events and solidarity, health and safety, political and legislative work, organizing and recruitment, and other member-led efforts.",
+      "You don't have to start by taking on a huge responsibility. Find something you can help with. Learn how that part of the Local works. Do what you said you were going to do. Then go from there.",
+      "That's how more people learn the Local, help the next person, and get comfortable stepping up when they're ready."
+    ],
+    actions: [
+      ["Back to News", "news.html"]
     ]
   }
 ];
 
-const allArticles = [...news, ...committeeNews];
+const allArticles = news;
 
 function monthDay(dateString) {
   const date = new Date(`${dateString}T12:00:00`);
@@ -302,6 +343,7 @@ function renderHeader() {
       <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false"><span></span></button>
       <nav class="nav-links" aria-label="Primary navigation">
         ${navItems.map(([label, href]) => `<a href="${href}" class="${path === href ? "active" : ""}">${label}</a>`).join("")}
+        <a class="nav-cta" href="join.html">Join / Get Involved</a>
       </nav>
     </div>
   `;
@@ -322,20 +364,28 @@ function renderFooter() {
     <div class="container footer-grid">
       <div>
         <h3>IATSE Local 217</h3>
-        <p>Representing skilled entertainment workers and building a stronger future for live events in the Rockford region.</p>
+        <p>Stagehands. Technicians. Union labor.<br>Rockford, Illinois</p>
       </div>
       <div>
-        <h3>Explore</h3>
+        <h3>Pages</h3>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Local 217</a>
         <a href="calendars.html">Calendars</a>
-        <a href="training.html">Training</a>
-        <a href="news.html">News & Committees</a>
+        <a href="training.html">Training & Apprenticeship</a>
+        <a href="news.html">News & Updates</a>
         <a href="gallery.html">Gallery</a>
-        <a href="join.html">Join / Interest Form</a>
+        <a href="join.html">Join Local 217</a>
+        <a href="contact.html">Work With Local 217</a>
+        <a href="contact.html">Contact</a>
       </div>
       <div>
-        <h3>Contact</h3>
-        <p>Email: info@iatse217.org<br>Phone: (000) 000-0000<br>Rockford, Illinois</p>
-        <p class="small">Replace with official contact details before launch.</p>
+        <h3>Local 217 Office</h3>
+        <p><a href="tel:8157082802">815-708-2802</a></p>
+        <h3>Education & Training</h3>
+        <p><a href="mailto:letstrain217@gmail.com">letstrain217@gmail.com</a></p>
+        <h3>Office Hours</h3>
+        <p>Monday through Friday<br>8:00 AM to 5:00 PM<br>Saturday<br>8:00 AM to 12:00 PM</p>
+        <p class="small">&copy; 2026 IATSE Local 217 | Rockford, Illinois</p>
       </div>
     </div>
   `;
@@ -375,7 +425,7 @@ function renderPhotoCards(selector, collection) {
   if (!target) return;
   target.innerHTML = collection.map((item) => `
     <article class="photo-card">
-      <div class="placeholder-image">Photo Placeholder</div>
+      <div class="placeholder-image" aria-hidden="true"></div>
       <div>
         <h3>${item.title}</h3>
         <p>${item.summary}</p>
@@ -400,6 +450,7 @@ function renderNews(selector, limit) {
           <div class="meta">${date}</div>
           <h3>${item.title}</h3>
           <p>${item.summary}</p>
+          ${(item.preview || []).map((paragraph) => `<p>${paragraph}</p>`).join("")}
           <span class="read-more">Read full update</span>
         </div>
       </a>
@@ -446,34 +497,30 @@ function renderArticle() {
   document.title = `${article.title} | IATSE Local 217`;
   target.innerHTML = `
     <article class="article-detail">
+      <p class="eyebrow">Local 217 News</p>
       <a class="back-link" href="news.html">Back to News</a>
       <div class="article-meta">
         <span class="tag">${article.tag}</span>
         <span>${date}</span>
       </div>
       <h1>${article.title}</h1>
-      <p class="article-summary">${article.summary}</p>
-      <div class="placeholder-image article-image">Article Photo Placeholder</div>
+      <p class="article-summary">${article.articleSummary || article.summary}</p>
       <div class="article-body">
         ${article.body.map((paragraph) => `<p>${paragraph}</p>`).join("")}
       </div>
+      ${article.contact ? `
+        <div class="article-contact notice">
+          <strong>${article.contact[0]}</strong>
+          <a class="text-link" href="mailto:${article.contact[1]}">${article.contact[1]}</a>
+          <p>${article.contact[2]}</p>
+        </div>
+      ` : ""}
+      ${article.actions ? `
+        <div class="button-row article-actions">
+          ${article.actions.map(([label, href]) => `<a class="button ${label === "Back to News" ? "light" : ""}" href="${href}">${label}</a>`).join("")}
+        </div>
+      ` : ""}
     </article>
-  `;
-}
-
-function renderMemberHighlight() {
-  const target = document.querySelector("[data-member-highlight]");
-  if (!target) return;
-  target.innerHTML = `
-    <div class="feature-card">
-      <div class="placeholder-image tall">Member Photo Placeholder</div>
-      <div>
-        <p class="eyebrow">${memberHighlight.title}</p>
-        <h2>${memberHighlight.name}</h2>
-        <p>${memberHighlight.summary}</p>
-        <a class="button light" href="news.html">See Member Highlights</a>
-      </div>
-    </div>
   `;
 }
 
@@ -483,7 +530,7 @@ function handleStaticForms() {
       event.preventDefault();
       const notice = form.querySelector("[data-form-status]");
       if (notice) {
-        notice.textContent = "Thanks. This demo form is ready to connect to email, Google Sheets, Airtable, or a Vercel function.";
+        notice.textContent = "Thanks. Online form delivery still needs to be connected before launch. For now, please contact Local 217 directly using the phone or email listed on this page.";
       }
     });
   });
@@ -495,12 +542,11 @@ renderEvents("[data-events]", events);
 renderEvents("[data-trainings]", trainings);
 renderCards("[data-committees]", committees);
 renderCards("[data-venues]", venues, "venue-card");
-renderPhotoCards("[data-leadership]", leadership);
+renderCards("[data-leadership]", leadership);
 renderPhotoCards("[data-gallery]", galleryItems);
 renderPhotoCards("[data-memorials]", memorials);
 renderNews("[data-news]", 3);
 renderNews("[data-all-news]");
 renderNewsCollection("[data-committee-news]", committeeNews);
 renderArticle();
-renderMemberHighlight();
 handleStaticForms();
