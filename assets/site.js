@@ -535,7 +535,6 @@ function renderNews(selector, limit) {
           <div class="meta">${date}</div>
           <h3>${item.title}</h3>
           <p>${item.summary}</p>
-          ${(item.preview || []).map((paragraph) => `<p>${paragraph}</p>`).join("")}
           <span class="read-more">Read Full Update</span>
         </div>
       </a>
