@@ -21,6 +21,9 @@
   box-sizing: border-box;
 }
 
+[hidden] { display: none !important; }
+.button:disabled { opacity: .6; cursor: not-allowed; }
+
 html {
   scroll-behavior: smooth;
 }
@@ -50,13 +53,10 @@ img {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: linear-gradient(
-    110deg,
-    rgba(22, 25, 29, 0.98) 0%,
-    rgba(43, 48, 54, 0.97) 58%,
-    rgba(58, 35, 38, 0.97) 100%
-  );
-  border-bottom: 1px solid #424950;
+  background:
+    linear-gradient(110deg, rgba(180, 35, 42, 0.34), rgba(216, 155, 56, 0.1) 50%, rgba(49, 59, 70, 0.34)),
+    linear-gradient(180deg, rgba(21, 26, 32, 0.99), rgba(13, 16, 20, 0.99));
+  border-bottom: 1px solid rgba(216, 155, 56, 0.22);
   backdrop-filter: blur(14px);
 }
 
@@ -136,8 +136,10 @@ img {
 
 .menu-button {
   display: none;
-  border: 1px solid #59616a;
-  background: linear-gradient(145deg, #30363d, #24282d);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background:
+    linear-gradient(145deg, rgba(180, 35, 42, 0.28), rgba(216, 155, 56, 0.06)),
+    #1b2026;
   width: 44px;
   height: 44px;
   border-radius: 6px;
@@ -181,7 +183,7 @@ img {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: linear-gradient(90deg, rgba(16, 19, 24, 0.88), rgba(16, 19, 24, 0.56) 52%, rgba(16, 19, 24, 0.2)), url("photos/home-concert.jpg");
+  background-image: linear-gradient(90deg, rgba(16, 19, 24, 0.88), rgba(16, 19, 24, 0.56) 52%, rgba(16, 19, 24, 0.2)), url("photos/local217/arena-show.jpg");
   background-size: cover;
   background-position: center 50%;
 }
@@ -287,7 +289,7 @@ img {
 .leadership-band {
   background-image:
     linear-gradient(90deg, rgba(10, 12, 15, 0.88), rgba(10, 12, 15, 0.7)),
-    url("photos/leadership-membership.jpg");
+    url("photos/local217/rigging-overview.jpg");
   background-size: cover;
   background-position: center;
   color: var(--white);
@@ -300,6 +302,10 @@ img {
 
 .leadership-band .section-head p {
   color: rgba(255, 255, 255, 0.82);
+}
+
+.leadership-band .section-head p + p {
+  margin-top: 16px;
 }
 
 .leadership-band .card {
@@ -1106,7 +1112,7 @@ img {
   border-radius: var(--radius);
   background-image:
     linear-gradient(180deg, rgba(16, 19, 24, 0.18), rgba(16, 19, 24, 0.76)),
-    url("photos/concert-stage.jpg");
+    url("photos/local217/touring-stage.jpg");
   background-size: cover;
   background-position: center;
   box-shadow: 0 24px 58px rgba(0, 0, 0, 0.34);
@@ -1185,8 +1191,10 @@ img {
     flex-direction: column;
     align-items: stretch;
     padding: 10px;
-    background: linear-gradient(155deg, #1b1e22, #2b3036 72%, #39272a);
-    border: 1px solid #424950;
+    background:
+      linear-gradient(145deg, rgba(180, 35, 42, 0.32), rgba(216, 155, 56, 0.08) 52%, rgba(49, 59, 70, 0.32)),
+      linear-gradient(180deg, #151a20, #0d1014);
+    border: 1px solid rgba(216, 155, 56, 0.2);
     border-radius: var(--radius);
     box-shadow: var(--shadow);
   }

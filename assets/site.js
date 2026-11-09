@@ -180,76 +180,76 @@ const leadership = window.leadershipData || [];
 
 const galleryItems = [
   {
-    title: "Backstage Production",
-    summary: "The working side of a live stage, with cable, equipment, and crew space ready for the production.",
-    image: "assets/photos/stagehand-backstage.jpg",
-    alt: "Stagehand standing backstage near coiled cable and production equipment"
+    title: "Around The Crew",
+    summary: "Crew gathered beside a covered loading area.",
+    image: "assets/photos/local217/covered-work-area.jpg",
+    alt: "Crew gathered beside a covered loading area"
   },
   {
-    title: "Sound Control",
-    summary: "Audio systems are monitored and adjusted from the control position throughout an event.",
-    image: "assets/photos/audio-engineer.jpg",
-    alt: "Audio engineer operating a live sound console"
+    title: "Production Equipment",
+    summary: "A look behind the scenes at racks of production equipment.",
+    image: "assets/photos/local217/production-controls.jpg",
+    alt: "Two people beside racks of production equipment"
   },
   {
     title: "Stage Rigging",
     summary: "Rigging, lighting positions, curtains, and road cases are part of the infrastructure behind a show.",
-    image: "assets/photos/stage-rigging.jpg",
-    alt: "Black and white view of stage rigging above road cases"
+    image: "assets/photos/local217/arena-rigging.jpg",
+    alt: "Overhead view of an arena floor during production setup"
   },
   {
-    title: "Road Cases & Load-In",
-    summary: "A production floor organized with road cases and equipment before the next phase of the call.",
-    image: "assets/photos/arena-loadin.jpg",
-    alt: "Road cases and production equipment arranged on an arena floor"
+    title: "Before The Show",
+    summary: "An outdoor stage and its production systems before the audience arrives.",
+    image: "assets/photos/local217/stage-setup.jpg",
+    alt: "Outdoor stage and production equipment before a show"
   },
   {
-    title: "Theater Setup",
-    summary: "Technicians prepare lighting and stage equipment inside a working theater.",
-    image: "assets/photos/theater-setup.jpg",
-    alt: "Stage technicians preparing lighting equipment in a theater"
+    title: "Inside The Theater",
+    summary: "An illuminated proscenium frames the stage.",
+    image: "assets/photos/local217/theatre-interior.jpg",
+    alt: "Illuminated ornate proscenium inside a theater"
   },
   {
-    title: "Lighting Preparation",
-    summary: "Fixtures, ladders, cable, and careful positioning all come together before the audience arrives.",
-    image: "assets/photos/stage-lighting.jpg",
-    alt: "Stage lighting fixtures being prepared beside a ladder"
+    title: "Building The Stage",
+    summary: "An outdoor stage under construction, with a lift alongside.",
+    image: "assets/photos/local217/outdoor-build.jpg",
+    alt: "Outdoor stage under construction with a lift alongside"
   },
   {
-    title: "Building The Event Space",
-    summary: "Temporary event structures take planning, teamwork, safety equipment, and steady hands.",
-    image: "assets/photos/stagebuild-team.jpg",
-    alt: "Event crew assembling a temporary platform together"
+    title: "Solidarity & Community",
+    summary: "Gathered behind the Local 217 banner.",
+    image: "assets/photos/local217/solidarity-banner.jpg",
+    alt: "Group gathered behind a Local 217 banner outdoors"
   },
   {
     title: "Crew Backstage",
     summary: "Production work depends on crews staying connected, prepared, and ready for the next task.",
-    image: "assets/photos/backstage-crew.jpg",
-    alt: "Production crew gathered backstage at night"
+    image: "assets/photos/local217/arena-crew.jpg",
+    alt: "Crew group standing together inside an arena"
   },
   {
-    title: "Outdoor Stage",
-    summary: "Outdoor productions bring together staging, lighting, audio, video, and audience support.",
-    image: "assets/photos/outdoor-stage.jpg",
-    alt: "Outdoor concert stage illuminated during a live performance"
+    title: "Learning Together",
+    summary: "A classroom session around the table.",
+    image: "assets/photos/local217/classroom-session.jpg",
+    alt: "People seated at tables during a classroom session"
   },
   {
     title: "Scenery & Fly Systems",
     summary: "Theater work includes scenery, overhead systems, lighting positions, and the spaces audiences never see.",
-    image: "assets/photos/stage-scenery.jpg",
-    alt: "Theater set and scenery seen through an overhead fly system"
+    image: "assets/photos/local217/stage-systems.jpg",
+    alt: "Backstage rigging lines and stage systems"
   },
   {
-    title: "Front Of House",
-    summary: "Audio and show-control positions keep the technical side of the event moving from start to finish.",
-    image: "assets/photos/sound-console.jpg",
-    alt: "Audio engineer seated at a front-of-house sound console"
+    title: "Under The Lights",
+    summary: "Blue and purple lighting across the stage.",
+    image: "assets/photos/local217/stage-performance.jpg",
+    alt: "Stage illuminated with blue and purple lighting"
   },
   {
-    title: "Stage & Audience",
-    summary: "The finished event is the visible result of a much larger effort before, during, and after the show.",
-    image: "assets/photos/concert-stage.jpg",
-    alt: "View from a concert stage toward a large audience"
+    title: "Outdoor Production",
+    summary: "Lighting and video systems on a large outdoor stage.",
+    image: "assets/photos/local217/touring-stage.jpg",
+    alt: "Large outdoor stage with lighting and video systems"
   }
 ];
 
@@ -290,12 +290,12 @@ const venues = [
   {
     title: "BMO Center",
     summary: "Arena events, concerts, sports, touring productions, and large-scale event work in the Rockford region.",
-    image: "photos/venue-bmo-center.jpg"
+    image: "photos/local217/bmo-exterior.jpg"
   },
   {
     title: "Coronado Theatre",
     summary: "Historic theater work, touring shows, orchestras, stagecraft, and live performance support.",
-    image: "photos/venue-coronado-theatre.jpg"
+    image: "photos/local217/theatre-interior.jpg"
   },
   {
     title: "Hard Rock Casino Rockford",
@@ -305,7 +305,7 @@ const venues = [
   {
     title: "Regional Calls",
     summary: "NIU Convocation Center, festivals, outdoor events, touring productions, and special events when appropriate.",
-    image: "photos/venue-regional-calls.jpg"
+    image: "photos/local217/outdoor-build.jpg"
   }
 ];
 
@@ -315,11 +315,11 @@ const news = [
     date: "2026-07-30",
     title: "A Strong Start For Local 217 Training",
     tag: "Training",
-    image: "assets/photos/equipment-tech.jpg",
-    imageAlt: "Production technician adjusting equipment during an event setup",
-    summary: "The first three classes brought 37 total attendances and 140 participant training hours. That's a good start, but the bigger reason we're doing this is simple. More people need to know the work.",
+    image: "assets/photos/local217/crew-gathering.jpg",
+    imageAlt: "Crew gathered in a covered outdoor work area",
+    summary: "We kicked off the current training effort on March 19, and the first three classes have already put more members, apprentices, and extras in the room learning together.",
+    articleSummary: "The first three classes brought 37 total attendances and 140 participant training hours. That's a good start, but the bigger reason we're doing this is simple. More people need to know the work.",
     preview: [
-      "We kicked off the current training effort on March 19, and the first three classes have already put more members, apprentices, and extras in the room learning together.",
       "Those first three classes brought 37 total attendances and 140 participant training hours. That included 15 hands at the March 19 rigging orientation, eight at the follow-up class, and 14 at the July 1 Leadership and Steward Basics class.",
       "The numbers are good to see, but they're not the whole story. The bigger goal is getting more people involved in training, giving experienced hands a chance to pass along what they know, and making sure the Local isn't depending on the same few people knowing everything.",
       "There's more to learn and more training ahead. That's exactly the point."
@@ -339,11 +339,12 @@ const news = [
   },
   {
     slug: "upcoming-training-opportunities",
+    draft: true,
     date: "2026-07-30",
     title: "Upcoming Training Opportunities",
     tag: "Training",
-    image: "assets/photos/training-scaffold.jpg",
-    imageAlt: "Event workers assembling a temporary structure with safety equipment",
+    image: "assets/photos/local217/learning-room.jpg",
+    imageAlt: "People gathered around tables in a classroom",
     summary: "There are more opportunities coming up through both Local 217 and the IATSE Training Trust Fund.",
     articleSummary: "We've got more training coming up through Local 217, along with several opportunities through the IATSE Training Trust Fund.",
     preview: [
@@ -377,9 +378,9 @@ const news = [
     date: "2026-06-10",
     title: "You Don't Have To Be An Officer To Build The Local",
     tag: "Committee",
-    image: "assets/photos/backstage-crew.jpg",
-    imageAlt: "Production crew gathered together backstage",
-    summary: "There is plenty to do around a Local that does not require holding office.",
+    image: "assets/photos/local217/arena-crew.jpg",
+    imageAlt: "Crew group standing together inside an arena",
+    summary: "There's plenty to do around a Local that doesn't require holding office.",
     articleSummary: "There's plenty of work around a Local that doesn't require holding office.",
     preview: [
       "Members can help with education and training, events and solidarity, health and safety, political and legislative work, organizing and recruitment, and other member-led efforts.",
@@ -388,7 +389,7 @@ const news = [
       "You don't have to do everything. Find somewhere you can help, do your part well, and go from there."
     ],
     body: [
-      "A member does not have to take on everything to make a difference.",
+      "A member doesn't have to take on everything to make a difference.",
       "There's a line from our leadership training that gets right to it:",
       "\"A one-hour job done well is better than a big promise that never happens.\"",
       "That's a good way to think about getting involved.",
@@ -402,7 +403,7 @@ const news = [
   }
 ];
 
-const allArticles = news;
+const allArticles = news.filter(item => !item.draft);
 
 function monthDay(dateString) {
   const date = new Date(`${dateString}T12:00:00`);
@@ -467,7 +468,7 @@ function renderFooter() {
         <h3>Education & Training</h3>
         <p><a href="mailto:letstrain217@gmail.com">letstrain217@gmail.com</a></p>
         <h3>Office Hours</h3>
-        <p>Monday through Friday<br>8:00 AM to 5:00 PM<br>Saturday<br>8:00 AM to 12:00 PM</p>
+        <p>By appointment only.</p>
         <p class="small">&copy; 2026 IATSE Local 217 | Rockford, Illinois</p>
       </div>
     </div>
@@ -520,7 +521,7 @@ function renderPhotoCards(selector, collection) {
 function renderNews(selector, limit) {
   const target = document.querySelector(selector);
   if (!target) return;
-  target.innerHTML = news.slice(0, limit || news.length).map((item) => {
+  target.innerHTML = allArticles.slice(0, limit || allArticles.length).map((item) => {
     const date = new Date(`${item.date}T12:00:00`).toLocaleDateString("en-US", {
       month: "long",
       day: "numeric",
@@ -528,14 +529,14 @@ function renderNews(selector, limit) {
     });
     return `
       <a class="news-item clickable" href="article.html?slug=${item.slug}">
-        ${item.image ? `<img class="news-thumb" src="${item.image}" alt="${item.imageAlt || "Live event production"}" loading="lazy">` : ""}
+        ${item.approvedArticleImage ? `<img class="news-thumb" src="${item.image}" alt="${item.imageAlt || "Live event production"}" loading="lazy">` : ""}
         <div class="news-copy">
           <div><span class="tag">${item.tag}</span></div>
           <div class="meta">${date}</div>
           <h3>${item.title}</h3>
           <p>${item.summary}</p>
           ${(item.preview || []).map((paragraph) => `<p>${paragraph}</p>`).join("")}
-          <span class="read-more">Read full update</span>
+          <span class="read-more">Read Full Update</span>
         </div>
       </a>
     `;
@@ -572,7 +573,7 @@ function renderMemorialCarousel() {
   const previousButton = document.querySelector("[data-memorial-prev]");
   const nextButton = document.querySelector("[data-memorial-next]");
   const status = document.querySelector("[data-memorial-status]");
-  if (!carousel || !track || !previousButton || !nextButton) return;
+  if (!carousel || !track || !previousButton || !nextButton || carousel.closest('[hidden]')) return;
 
   track.innerHTML = memorials.map((item, index) => `
     <article class="memorial-card" aria-label="Memorial profile ${index + 1}">
@@ -643,7 +644,12 @@ function renderArticle() {
 
   const params = new URLSearchParams(window.location.search);
   const slug = params.get("slug");
-  const article = allArticles.find((item) => item.slug === slug) || allArticles[0];
+  const article = slug ? allArticles.find((item) => item.slug === slug) : allArticles[0];
+  if (!article) {
+    document.title = "Update Unavailable | IATSE Local 217";
+    target.innerHTML = '<article class="article-detail"><h1>Update Unavailable</h1><p>This update is not currently published.</p><a class="button" href="news.html">Back To News</a></article>';
+    return;
+  }
   const date = new Date(`${article.date}T12:00:00`).toLocaleDateString("en-US", {
     month: "long",
     day: "numeric",
@@ -661,7 +667,7 @@ function renderArticle() {
       </div>
       <h1>${article.title}</h1>
       <p class="article-summary">${article.articleSummary || article.summary}</p>
-      ${article.image ? `<img class="article-image" src="${article.image}" alt="${article.imageAlt || "Live event production"}">` : ""}
+      ${article.approvedArticleImage ? `<img class="article-image" src="${article.image}" alt="${article.imageAlt || "Live event production"}">` : ""}
       <div class="article-body">
         ${article.body.map((paragraph) => `<p>${paragraph}</p>`).join("")}
       </div>
