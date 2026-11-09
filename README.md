@@ -29,11 +29,22 @@ Most repeatable content lives in `assets/site.js`:
 - venue cards
 - office phone and public contact details
 
-Optimized stock photos live in `assets/photos`. The current photo credits are listed in `IMAGE-CREDITS.md`.
+Optimized client photos live in `assets/photos/local217`. The current photo sources are listed in `IMAGE-CREDITS.md`.
 
 The Home page overview-video area currently uses a poster image. When the approved video is ready, replace the `video-poster` block in `index.html` with the YouTube or Vimeo embed.
 
 Forms are visual/static for now. On Vercel, they can later be connected to a service such as Formspree, Airtable, Google Sheets, Resend, or a Next.js/Serverless backend.
+
+## Current Launch Status
+
+- Office visits are by appointment only.
+- Form submit buttons are disabled until delivery is connected. Direct email and telephone alternatives are shown.
+- The old static event list is no longer mounted on Calendars. The published training-sheet link is retained, but a live public calendar source still needs confirmation and integration.
+- The unconfirmed weekly meeting schedule has been removed from page output.
+- The blank remembrance section is hidden and not rendered by JavaScript.
+- The unfinished Upcoming Training Opportunities post is marked draft and excluded from the feed and direct article route. The two complete supplied historical posts remain visible.
+- Photo selections still need client review. Videos have not been reviewed or added.
+- No domain purchase, email provisioning, invoice, or Vercel deployment has been performed.
 
 ## Deploying On Vercel
 

@@ -1,8 +1,12 @@
-# Stock Photography Credits
+# Photography Sources
 
-The current website uses temporary stock production photography from Unsplash while Local 217 gathers approved photographs of its members, training, venues, and events.
+The page photography now uses selections from the client's downloaded Local 217 photo collection. Optimized copies are in assets/photos/local217. Originals were left untouched; EXIF metadata was not carried into the optimized copies. Specific people, dates, and show names have not been inferred from the photos.
 
-The BMO Center, Coronado Theatre, Hard Rock Casino Rockford, and Regional Calls images were supplied by the client for the venue cards on the About page.
+The Hard Rock Casino Rockford venue image remains the previously supplied client image. The existing generated social-preview cover is retained. Client confirmation of publication permissions is still required before launch.
+
+## Earlier Stock Assets
+
+Earlier stock files remain in the folder for reference but are no longer used as page photography. The earlier source credits were:
 
 - Annie Hatuanh
 - Artem Beliaikin
